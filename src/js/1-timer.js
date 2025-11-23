@@ -25,7 +25,6 @@ const options = {
         
         if (userSelectedDate <= new Date()) {
             iziToast.show({
-                color: 'red',
                 backgroundColor: '#c40000',
                 theme: 'dark',
                 position: 'topRight',

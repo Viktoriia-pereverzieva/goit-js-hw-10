@@ -122,3 +122,95 @@ color: #000;
   line-height: 150%;
   color: #2e2f42;
 }
+
+.label-delay {
+  width: 360px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 20px auto 0 auto;
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-delay {
+  width: 328px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px; 
+  padding: 0 16px;
+  margin-top: 8px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input-delay:hover {
+  border: 1px solid #000;
+}
+
+.input-delay:focus {
+  outline: none;
+border: 1px solid #4e75ff;
+}
+
+.fieldset {
+  width: 360px;
+  height: 78px;
+  font-family: "Montserrat", sans-serif;
+  margin: 16px auto 0 auto;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 0 ;
+}
+
+.fieldset:hover {
+  border: 1px solid #000;
+}
+
+.legend {
+  margin-bottom: 14px;
+  margin-left: -130px;
+}
+
+.radioinput {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+
+.radiolabel {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.fulfilled-label {
+  margin-right: 14px;
+}
+
+.button-create {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  margin-top: 24px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+.button-create:hover{ 
+background: #6c8cff;
+}
