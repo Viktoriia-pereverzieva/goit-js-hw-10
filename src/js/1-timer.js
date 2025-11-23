@@ -63,7 +63,8 @@ function startTimer() {
                  refs.daysValue.textContent = '00';
                  refs.hoursValue.textContent = '00';
                  refs.minutesValue.textContent = '00';
-                 refs.secondsValue.textContent = '00';
+                refs.secondsValue.textContent = '00';
+                refs.inputElem.disabled = false;
                  return;
             };
         }, 1000);
